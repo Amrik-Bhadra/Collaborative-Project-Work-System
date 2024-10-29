@@ -1,0 +1,104 @@
+.joinRoomInput{
+    border: none !important;
+    background: #414141 !important;
+    color: #fff !important;
+}
+.joinRoomInput:focus{
+    border-color: rgb(0, 202, 202) !important;
+    color: #fff !important;
+}
+.joinRoomInput::placeholder{
+    color: #ccc !important;
+}
+.joinRoomBtn{
+    margin-top: 0.6rem !important;
+    background-color: rgb(0, 202, 202) !important;
+    color: #fff !important;
+}
+.joinRoomBtn:hover{
+    background-color: teal !important;
+}
+
+
+/* code room style */
+.codeRoomContainer{
+    height: 100vh;
+    background: #212121;
+    display: flex;
+}
+.membersSideBar{
+    width: 19%;
+    height: 100%;
+    background: #272727;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* box-shadow: 2px 0px 14px rgba(0, 0, 0, 0.1); */
+}
+.memberSideHeader h1{
+    font-size: 2rem;
+    color: #ccc;
+    text-align: center;
+    margin-bottom: 0.8rem;
+}
+.memberSideHeader hr,
+.memberSideFooter hr{
+    border-color: #cccccc62;
+    border-radius: 10px;
+}
+
+.memberSideFooter{
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem 0;
+}
+.CodeRoomBtn{
+    border-radius: 6px;
+    padding: 0.8rem 1.2rem;
+    color: #fff;
+}
+.copyCodeBtn{
+    background: #43aa8b;
+    transition: all 0.3s ease;
+}
+.copyCodeBtn:hover{
+   background-color: #4d908e; 
+}
+.leaveRoomBtn{
+    background-color: #ef233c;
+    transition: all 0.3s ease;
+}
+.leaveRoomBtn:hover{
+    background-color: #d90429;
+}
+
+.membersListContainer{
+    /* border: 2px solid yellow; */
+    height: 100%;
+    padding: 1rem 0;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem 0;
+}
+.membersListContainer .memberCard{
+    display: flex;
+    align-items: center;
+    gap: 0 0.8rem;
+    color: #ccc;
+}
+.membersListContainer .memberCard span{
+    height: 3.5rem;
+    width: 3.5rem;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    background-image: linear-gradient(180deg, #2af598 0%, #009efd 100%);
+    font-size: 1.2rem;
+}
+.membersListContainer .memberCard h1{
+    font-size: 1rem;
+}

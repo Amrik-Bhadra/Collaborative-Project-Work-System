@@ -1,0 +1,126 @@
+.home-main-container{
+    background: #252525;
+    height: 100vh;
+    padding: 2.5rem 3rem;
+    display: flex;
+    justify-content: center;
+    gap: 0 1.5rem;
+}
+.profile-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2rem 0;
+    padding: 4rem;
+    border-radius: 10px;
+    background: #333;
+    width: 25%;
+    
+}
+
+.profilePicBox{
+    width: 12rem;
+    height: 12rem;
+    border-radius: 50%;
+    background: #000;
+    overflow: hidden;
+}
+.profilePicBox img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.profile-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.profile-content h1{
+    color: #e8e8e8;
+    font-size: 1.5rem;
+}
+.profile-content p{
+    color: #b3b3b3;
+    font-size: 1.1rem;
+}
+
+
+.main-content{
+    width: 75%;
+    background: #333;
+    border-radius: 10px;
+    padding: 2rem 2.8rem;
+}
+.main-content h1{
+    color: #fff;
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+.main-content h1 span{
+    color: rgb(0, 202, 202);
+}
+.main-content .header-div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* border: 2px solid yellow; */
+}
+.main-content .header-btn-div{
+    display: flex;
+    gap: 0 0.8rem;
+}
+.main-content .header-btn-div Button .icon{
+    font-size: 1.2rem !important;
+}
+
+
+.projects-card-main-container{
+    width: 100%;
+    height: 88%;
+    border-top: 2px solid rgba(159, 159, 159, 0.197);
+    margin-top: 1.4rem;
+    padding-top: 1rem;
+    color: #777777;
+}
+.searchIcon{
+    color: #6e6e6e;
+}
+.search-bar{
+    border: none;
+}
+.search-bar:focus{
+    border: 2px solid teal;
+}
+.searchbarbox{
+    border: none;
+    outline: none;
+}
+
+.filter-box{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.filter-box .drop-box-container{
+    display: flex;
+    gap: 0 0.8rem;
+    width: 40%;
+}
+.projects-card-box{
+    width: 100%;
+    margin-top: 1.5rem;
+    height: 85%;
+    overflow-y: scroll;
+    scrollbar-width: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 1.7rem;
+    padding: 1rem;
+}
+
+.projects-card-box::-webkit-scrollbar {
+  display: none;
+}
+
